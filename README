@@ -1,0 +1,26 @@
+mazegen
+=======
+
+mazegen is a C++ program that uses graphs to generate and solve mazes. It used
+to produce and solve only ASCII art mazes, but that wasn't cool enough, so now
+it does HTML too. Well, it generates HTML. It currently still only solves ASCII
+mazes that look something like this::
+
+    + +-+-+-+
+    | |     |
+    + + + +-+
+    |   |    
+    +-+-+-+-+
+
+Yes, it reads ASCII art and solves it. You read that right.
+
+In the future, it will also read the HTML mazes and solve them, or produce an
+optional solved version of the maze at the same time that it generates one.
+
+
+Graph Implementation
+====================
+
+There is a bare-bones implementation of a graph in this project that might be
+useful to you if you're just learning how graphs work. Check out Graph.cpp and
+Edge.cpp for your learning pleasure.
